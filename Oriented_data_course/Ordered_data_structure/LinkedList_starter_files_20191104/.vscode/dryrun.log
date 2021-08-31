@@ -1,0 +1,6 @@
+C:\Octave\Octave-5.1.0.0\usr\bin\make.exe all --dry-run --keep-going --print-directory
+make: Entering directory '/c/Users/Alessandro Varriale/Desktop/my_projects/Oriented_data_course/course2/LinkedList_starter_files_20191104'
+make: Leaving directory '/c/Users/Alessandro Varriale/Desktop/my_projects/Oriented_data_course/course2/LinkedList_starter_files_20191104'
+ 
+make: *** No rule to make target 'all'.
+ 

@@ -1,0 +1,67 @@
+r-value reference 
+
+int & == int &&
+const int & = int &&
+why this? because r-value reference is a named variable so it can be used to initialize 
+both const and non cost l-value reference variable. They are simply refefence no move semantics is involved!
+
+int&& rv = 7;
+int&& new_rv = rv  -> NOT WORK
+why this?
+because after we assign an r-value reference to an r-value now we have a real named variable.
+the r-value reference has a similar behaviour to a normal l-value variable. so if we use it as righ hand side of assignment where lhs is a r-value reference that needs only
+r-value for sure it doesn't work!!!
+int a = 9;
+int& b = a;
+int & c = b;
+
+This instead work!!!! because l-value reference accepts as rhs an l-value (a named variable). So in the end a,b,c refer to the same variable into the memory.
+So, it any of them access to it and modify the value the change is seen also by the other ones.
+
+function that returns a r value reference && - what it means?
+It's useless and dangerous because you can return a dangling reference.
+
+use cases:
+MyClass && my_f (){
+	MyClass obj;
+	return move(obj);
+}
+what happen?
+here we use move to return our obj as an r-value so it can be used in move semantics. 
+So if we do:
+
+MyClass out_f = my_f() ->x now the object out_f is created using a move semantics constructor if available otherwise the r-value is used as parameter for a copy constructor
+because remeber that an r-value can be referenced also by an const l-value reference like const MyClass& that is the typical argument of a copy constructor.
+So you think that you've used the move ctor but in reality not. Take care!!
+Other thing the code above is WRONG!!!
+when my_f returns the object built inside it goes out of scope and is destroyed. So, obj is destroyed and we are returning a dangling r-value reference!!!
+IT'S WRONG!!!
+we can do also:
+MyClass&& out_f = my_f(); -> what it means?
+we are returning the obj as an r-value and now outside our function we are creating a r-value reference out_f that is a reference to obj.
+In this case, the machanism is similar to return a l-value reference.
+But also in this case the code is wrong because the reference is dangling!!!
+
+what if we have a global variable and a situation similar to the previous:
+
+MyClass global_obj();
+
+MyClass && my_f (){
+	return move(global_obj);
+	
+	Now if we do:
+	MyClass out_f = my_f()   -> my_f returns the global object as a r-value and it's catched by move ctor of our MyClass to build our object out the function scope (out_f)
+	the final effect is -> out_f contains the stuff of global_obj that is moved. Always if a move ctor is defined!!!
+	If not the r-value version of our global_obj is used to trigger the copy ctor Myclass(const MyClass& ) because r-value can be referenced by a const l-value reference
+	
+Other case:
+MyClass&& out_f = my_f(); -> what it means?
+
+in this case my_f return the r-value of the global_obj and this r-value now is referenced also by out_f. iT's an r-value reference to the gloabal object!
+No move semantic is involved!!!the mechanism here is similar to an l-value reference.
+now if we modify global_obj we see the effect also through out_f because they refer to the same object.
+Viceversa, if we through out_f apply some changes to the referred value these are seen also by global_obj
+
+in the end returning an r-value reference through a function is not so useful. 
+It's better to use simply l-value reference in some cases.
+

@@ -1,0 +1,18 @@
+C:\Octave\Octave-5.1.0.0\usr\bin\make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/c/Users/Alessandro Varriale/Desktop/my_projects/Oriented_data_course/course3/graph_search_starter_files/graph_search'
+mkdir -p .objs
+mkdir -p .objs/uiuc
+mkdir -p .objs/uiuc/catch
+mkdir -p .objs/tests
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c   main.cpp -o .objs/main.o
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c   GraphSearchExercises.cpp -o .objs/GraphSearchExercises.o
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c   PuzzleState.cpp -o .objs/PuzzleState.o
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c   GridGraph.cpp -o .objs/GridGraph.o
+g++ .objs/main.o .objs/GraphSearchExercises.o .objs/PuzzleState.o .objs/GridGraph.o  -std=c++14   -lpthread   -o main
+echo
+echo " Built the main executable program file for the project: " main
+echo " (Make sure you try \"make test\" too!)"
+echo 
+make: Leaving directory '/c/Users/Alessandro Varriale/Desktop/my_projects/Oriented_data_course/course3/graph_search_starter_files/graph_search'
+ 

@@ -1,0 +1,588 @@
+C:\Octave\Octave-5.1.0.0\usr\bin\make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+ 
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri May 14 11:05:46 2021
+
+# Variables
+ 
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /c/Users/Alessandro Varriale/Desktop/my_projects/Oriented_data_course/course3/graph_search_starter_files/graph_search
+# default
+SHELL := /bin/sh
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"it","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\Alessandro Varriale\OneDrive - SIAE MICROELETTRONICA Spa
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from '.objs/GridGraph.d', line 1)
+MAKEFILE_LIST :=  Makefile uiuc/make/uiuc.mk .objs/PuzzleState.d .objs/GraphSearchExercises.d .objs/main.d .objs/GridGraph.d
+# makefile (from 'uiuc/make/uiuc.mk', line 32)
+STDLIBVERSION_GCC = 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\Alessandro Varriale\AppData\Roaming\Code\CachedData\08a217c4d27a02a5bcde898fd7981bda5b49391b
+# environment
+TMP = /c/Users/ALESSA~1/AppData/Local/Temp
+# makefile (from 'uiuc/make/uiuc.mk', line 41)
+CXXFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -g -O0 $(WARNINGS) -MMD -MP -msse2 -c $(ASANFLAGS) $(NO_COPY_ELISION)
+# makefile (from 'uiuc/make/uiuc.mk', line 20)
+CPP_TEST = $(wildcard tests/*.cpp) uiuc/catch/catchmain.cpp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'uiuc/make/uiuc.mk', line 12)
+OBJS = main.o GraphSearchExercises.o PuzzleState.o GridGraph.o
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-5391c532-0542-45c6-9fc7-0316bd6a84f2-sock
+# environment
+VSCODE_CWD = C:\Users\Alessandro Varriale\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PATH = /c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files (x86)/Intel/iCLS Client:/c/Program Files/Intel/iCLS Client:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files (x86)/Novell/GroupWise:/c/WINDOWS/System32/OpenSSH:/c/Users/rizzog/maven361/bin:/c/Program Files/Java/jdk1.8.0_212:/c/Program Files/Intel/WiFi/bin:/c/Program Files/Common Files/Intel/WirelessCommon:/c/Program Files/PuTTY:/c/Program Files/Git/cmd:/c/Users/Alessandro Varriale/AppData/Local/Microsoft/WindowsApps:/c/Users/Alessandro Varriale/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin:/usr/bin:/c/Program Files/Git/cmd
+# environment
+ONLINESERVICES = Online Services
+# makefile (from 'uiuc/make/uiuc.mk', line 28)
+LD = $(CXX_WHICH)
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\Alessandro Varriale
+# environment
+DEFLOGDIR = C:\ProgramData\McAfee\Endpoint Security\Logs
+# environment
+!C: = c:\Users\Alessandro Varriale\Desktop\my_projects\Oriented_data_course\course3\graph_search_starter_files\graph_search
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'uiuc/make/uiuc.mk', line 36)
+STDLIBVERSION = $(STDLIBVERSION_GCC)
+# makefile (from 'Makefile', line 6)
+EXE_OBJ = main.o
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'uiuc/make/uiuc.mk', line 42)
+LDFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -lpthread $(ASANFLAGS) $(NO_COPY_ELISION)
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13864_GOMGHLJASQQIECAN
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = SMOL246
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# makefile (from 'uiuc/make/uiuc.mk', line 8)
+ZIP_FILE = graph_search_submission.zip
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'uiuc/make/uiuc.mk', line 24)
+CXX_CLANG = clang++
+# environment
+USERNAME = Alessandro Varriale
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/Alessandro Varriale
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\SMOL246
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = SMOL246
+# makefile (from 'Makefile', line 3)
+TEST = test
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+ 
+# default
+MAKECMDGOALS := all
+# makefile (from 'uiuc/make/uiuc.mk', line 9)
+COLLECTED_FILES = GraphSearchExercises.cpp
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_212
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\Alessandro Varriale\OneDrive - SIAE MICROELETTRONICA Spa
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+.DEFAULT_GOAL := main
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Alessandro Varriale\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := /usr/bin/make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1c4abeaf7e9b2e2b3d0a40b68e5ef6a9-1.55.1-main-sock
+# environment
+HOMEPATH = \Users\Alessandro Varriale
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+REGIONCODE = EMEA
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'uiuc/make/uiuc.mk', line 15)
+OBJS_DIR = .objs
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+PLATFORMCODE = AN
+# automatic
++F = $(notdir $+)
+# makefile (from 'uiuc/make/uiuc.mk', line 26)
+CXX_WHICH = $(CXX_GCC)
+# environment
+APPDATA = C:\Users\Alessandro Varriale\AppData\Roaming
+# makefile (from 'uiuc/make/uiuc.mk', line 25)
+CXX_GCC = g++
+# environment
+TEMP = /c/Users/ALESSA~1/AppData/Local/Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# makefile (from 'uiuc/make/uiuc.mk', line 30)
+STDVERSION = -std=c++14 
+# default
+MAKEFILES := 
+# makefile (from 'uiuc/make/uiuc.mk', line 38)
+WARNINGS = -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable
+# automatic
+<F = $(notdir $<)
+# makefile (from 'uiuc/make/uiuc.mk', line 31)
+STDLIBVERSION_CLANG = -stdlib=libc++ 
+# makefile (from 'uiuc/make/uiuc.mk', line 27)
+CXX = $(CXX_WHICH)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e09
+# makefile (from 'uiuc/make/uiuc.mk', line 21)
+OBJS_TEST = $(filter-out $(EXE_OBJ), $(OBJS)) $(CPP_TEST:.cpp=.o)
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 2)
+EXE = main
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+TERM = cygwin
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 13864
+# environment
+USERDOMAIN_ROAMINGPROFILE = SMOL246
+# variable set hash-table stats:
+# Load=123/1024=12%, Rehash=0, Collisions=31/202=15%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# .objs/uiuc/catch (device 351649482, inode 29554872554803460): 2 files, no impossibilities.
+# .objs/uiuc (device 351649482, inode 37999121856114437): 3 files, no impossibilities.
+ 
+# . (device 351649482, inode 16044073672575442): 19 files, no impossibilities.
+# .objs (device 351649482, inode 86694292826918839): 12 files, no impossibilities.
+# .objs/tests (device 351649482, inode 23643898043881855): 2 files, no impossibilities.
+# tests (device 351649482, inode 36310271995773789): 3 files, no impossibilities.
+
+# 41 files, no impossibilities in 6 directories.
+
+# Implicit Rules
+
+.objs/%.o: %.cpp | .objs
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+PuzzleState.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+.objs/main.o: main.cpp main.cpp GraphSearchCommon.h IntPair2.h GridGraph.h PuzzleState.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2021-05-13 12:19:12.2850358
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+all: main test
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+
+# Not a target:
+GraphSearchExercises.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-13 12:18:52.6027893
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all tidy clean zip
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+zip:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 99):
+	@echo "!!! Preparing submission zip with student code..."
+	@echo "!!! Make sure you have already tried compiling and testing your code"
+	@echo "!!! thoroughly before submitting the zip on Coursera!"
+	@echo ""
+	@echo "Removing any previous version of zip file..."
+	rm -rf $(ZIP_FILE)
+	@echo "Creating new file..."
+	zip $(ZIP_FILE) $(COLLECTED_FILES)
+	@echo "Created zip file: " $(ZIP_FILE)
+
+# Not a target:
+.objs/uiuc/*.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+.objs/GridGraph.o: GridGraph.cpp GridGraph.cpp GridGraph.h IntPair2.h GridGraph.cpp GridGraph.h IntPair2.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'GridGraph'
+#  Last modified 2021-05-13 12:19:17.8071105
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+test: .objs/GraphSearchExercises.o .objs/PuzzleState.o .objs/GridGraph.o .objs/tests/week3_tests.o .objs/uiuc/catch/catchmain.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 72):
+	$(LD) $^ $(LDFLAGS) -o $@
+	@echo
+	@echo " Built the test suite program: " $(TEST)
+	@echo $(ASANWARNING)
+
+.objs:
+#  Implicit rule search has not been done.
+#  Last modified 2021-05-13 12:19:17.7331254
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 62):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(OBJS_DIR)/uiuc
+	@mkdir -p $(OBJS_DIR)/uiuc/catch
+	@mkdir -p $(OBJS_DIR)/tests
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-12 21:15:50.4380801
+#  File has been updated.
+#  Successfully updated.
+
+.objs/tests/week3_tests.o: tests/week3_tests.cpp | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'tests/week3_tests'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .objs/tests/week3_tests.o
+# automatic
+# % := 
+# automatic
+# * := tests/week3_tests
+# automatic
+# + := tests/week3_tests.cpp
+# automatic
+# | := .objs
+# automatic
+# < := tests/week3_tests.cpp
+# automatic
+# ^ := tests/week3_tests.cpp
+# automatic
+# ? := tests/week3_tests.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/24=17%
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# Not a target:
+.objs/PuzzleState.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-13 12:19:16.0881181
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.objs/GraphSearchExercises.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-13 12:19:14.7632647
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+uiuc/make/uiuc.mk:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.objs/tests/*.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+GridGraph.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+GraphSearchCommon.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 93):
+	rm -rf $(EXE) $(TEST) $(OBJS_DIR) $(CLEAN_RM)
+
+# Not a target:
+GridGraph.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+.objs/GraphSearchExercises.o: GraphSearchExercises.cpp IntPair2.h GridGraph.h PuzzleState.h GraphSearchCommon.h GraphSearchExercises.cpp GraphSearchExercises.cpp GraphSearchCommon.h IntPair2.h GridGraph.h PuzzleState.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'GraphSearchExercises'
+#  Last modified 2021-05-13 12:19:15.1252261
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# Not a target:
+.objs/uiuc/catch/catchmain.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.objs/PuzzleState.o: PuzzleState.cpp PuzzleState.cpp PuzzleState.h PuzzleState.cpp PuzzleState.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'PuzzleState'
+#  Last modified 2021-05-13 12:19:16.1337957
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+tidy: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 96):
+	rm -rf doc
+
+# Not a target:
+.objs/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-13 12:19:12.0664216
+#  File has been updated.
+#  Successfully updated.
+
+main: .objs/main.o .objs/GraphSearchExercises.o .objs/PuzzleState.o .objs/GridGraph.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-05-13 12:19:18.8830429
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 51):
+	$(LD) $^ $(LDFLAGS) -o $@
+	@echo
+	@echo " Built the main executable program file for the project: " $(EXE)
+	@echo " (Make sure you try \"make test\" too!)"
+	@echo $(ASANWARNING)
+
+PuzzleState.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+IntPair2.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.objs/GridGraph.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-13 12:19:17.6902269
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.objs/uiuc/catch/*.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+tests/week3_tests.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-31 08:11:40
+#  File has been updated.
+#  Successfully updated.
+
+# files hash-table stats:
+# Load=34/1024=3%, Rehash=0, Collisions=4/136=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 63 / storage = 846 B / avg = 13 B
+# current buf: size = 8162 B / used = 846 B / count = 63 / avg = 13 B
+
+# strcache performance: lookups = 195 / hit rate = 67%
+# hash-table stats:
+# Load=63/8192=1%, Rehash=0, Collisions=6/195=3%
+# Finished Make data base on Fri May 14 11:05:46 2021
+
+ 

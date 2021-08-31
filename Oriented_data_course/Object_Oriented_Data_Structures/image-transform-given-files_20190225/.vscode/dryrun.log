@@ -1,0 +1,35 @@
+C:\Octave\Octave-5.1.0.0\usr\bin\make.exe all --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/c/Users/Alessandro Varriale/Desktop/my_projects/Oriented_data_course/course1/image-transform-given-files_20190225'
+mkdir -p .objs
+mkdir -p .objs/uiuc
+mkdir -p .objs/uiuc/catch
+mkdir -p .objs/uiuc/lodepng
+mkdir -p .objs/tests
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c main.cpp -o .objs/main.o
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c ImageTransform.cpp -o .objs/ImageTransform.o
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c uiuc/HSLAPixel.cpp -o .objs/uiuc/HSLAPixel.o
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c uiuc/PNG.cpp -o .objs/uiuc/PNG.o
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c uiuc/lodepng/lodepng.cpp -o .objs/uiuc/lodepng/lodepng.o
+ 
+g++ .objs/main.o .objs/ImageTransform.o .objs/uiuc/HSLAPixel.o .objs/uiuc/PNG.o .objs/uiuc/lodepng/lodepng.o  -std=c++14   -lpthread -o ImageTransform
+echo ""
+echo " Built the main executable program file for the project: " ImageTransform
+echo " (Make sure you try \"make test\" too!)"
+echo ""
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c tests/part2.cpp -o .objs/tests/part2.o
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c tests/part1.cpp -o .objs/tests/part1.o
+ 
+g++  -std=c++14   -g -O0 -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -MMD -MP -msse2 -c uiuc/catch/catchmain.cpp -o .objs/uiuc/catch/catchmain.o
+ 
+g++ .objs/ImageTransform.o .objs/uiuc/HSLAPixel.o .objs/uiuc/PNG.o .objs/uiuc/lodepng/lodepng.o .objs/tests/part2.o .objs/tests/part1.o .objs/uiuc/catch/catchmain.o  -std=c++14   -lpthread -o test
+echo ""
+echo " Built the test suite program: " test
+echo ""
+make: Leaving directory '/c/Users/Alessandro Varriale/Desktop/my_projects/Oriented_data_course/course1/image-transform-given-files_20190225'
+ 

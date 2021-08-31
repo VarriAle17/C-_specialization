@@ -1,0 +1,556 @@
+C:\Octave\Octave-5.1.0.0\usr\bin\make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+ 
+# Built for x86_64-pc-msys
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Fri May 21 15:57:31 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+ 
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = pqrR
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := /c/Users/Alessandro Varriale/Desktop/my_projects/Oriented_data_course/Unordered_data_structure/UnorderedMap_starter_files/UnorderedMap
+# default
+SHELL := /bin/sh
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"it","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\Alessandro Varriale\OneDrive - SIAE MICROELETTRONICA Spa
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from '.objs/UnorderedMapCommon.d', line 1)
+MAKEFILE_LIST :=  Makefile uiuc/make/uiuc.mk .objs/main.d .objs/UnorderedMapExercises.d .objs/UnorderedMapCommon.d
+# makefile (from 'uiuc/make/uiuc.mk', line 32)
+STDLIBVERSION_GCC = 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\Alessandro Varriale\AppData\Roaming\Code\CachedData\08a217c4d27a02a5bcde898fd7981bda5b49391b
+# environment
+TMP = /c/Users/ALESSA~1/AppData/Local/Temp
+# makefile (from 'uiuc/make/uiuc.mk', line 41)
+CXXFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -g -O0 $(WARNINGS) -MMD -MP -msse2 -c $(ASANFLAGS) $(NO_COPY_ELISION)
+# makefile (from 'uiuc/make/uiuc.mk', line 20)
+CPP_TEST = $(wildcard tests/*.cpp) uiuc/catch/catchmain.cpp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# makefile (from 'uiuc/make/uiuc.mk', line 12)
+OBJS = main.o UnorderedMapCommon.o UnorderedMapExercises.o
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b8cf1d09-15ed-42c5-9d53-f2ec02d2c2c4-sock
+# environment
+VSCODE_CWD = C:\Users\Alessandro Varriale\AppData\Local\Programs\Microsoft VS Code
+# default
+MAKE_HOST := x86_64-pc-msys
+# environment
+PATH = /c/Program Files (x86)/Common Files/Oracle/Java/javapath:/c/Program Files (x86)/Intel/iCLS Client:/c/Program Files/Intel/iCLS Client:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files (x86)/Novell/GroupWise:/c/WINDOWS/System32/OpenSSH:/c/Users/rizzog/maven361/bin:/c/Program Files/Java/jdk1.8.0_212:/c/Program Files/Intel/WiFi/bin:/c/Program Files/Common Files/Intel/WirelessCommon:/c/Program Files/PuTTY:/c/Program Files/Git/cmd:/c/Users/Alessandro Varriale/AppData/Local/Microsoft/WindowsApps:/c/Users/Alessandro Varriale/AppData/Local/Programs/Microsoft VS Code/bin:/c/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin:/usr/bin:/c/Program Files/Git/cmd
+# environment
+ONLINESERVICES = Online Services
+# makefile (from 'uiuc/make/uiuc.mk', line 28)
+LD = $(CXX_WHICH)
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+USERPROFILE = C:\Users\Alessandro Varriale
+# environment
+DEFLOGDIR = C:\ProgramData\McAfee\Endpoint Security\Logs
+# environment
+!C: = c:\Users\Alessandro Varriale\Desktop\my_projects\Oriented_data_course\Unordered_data_structure\UnorderedMap_starter_files\UnorderedMap
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# makefile (from 'uiuc/make/uiuc.mk', line 36)
+STDLIBVERSION = $(STDLIBVERSION_GCC)
+# makefile (from 'Makefile', line 6)
+EXE_OBJ = main.o
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'uiuc/make/uiuc.mk', line 42)
+LDFLAGS = $(CS400) $(STDVERSION) $(STDLIBVERSION) -lpthread $(ASANFLAGS) $(NO_COPY_ELISION)
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12488_STPLEABVVSZQZJPO
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = SMOL246
+# environment
+PROGRAMFILES = C:\Program Files
+# default
+.LOADED := 
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# makefile (from 'uiuc/make/uiuc.mk', line 8)
+ZIP_FILE = UnorderedMap_submission.zip
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'uiuc/make/uiuc.mk', line 24)
+CXX_CLANG = clang++
+# environment
+USERNAME = Alessandro Varriale
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/Alessandro Varriale
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# environment
+LOGONSERVER = \\SMOL246
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = SMOL246
+# makefile (from 'Makefile', line 3)
+TEST = test
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'uiuc/make/uiuc.mk', line 9)
+COLLECTED_FILES = UnorderedMapExercises.cpp
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_212
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\Alessandro Varriale\OneDrive - SIAE MICROELETTRONICA Spa
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+ 
+.DEFAULT_GOAL := main
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Alessandro Varriale\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := /usr/bin/make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1c4abeaf7e9b2e2b3d0a40b68e5ef6a9-1.55.1-main-sock
+# environment
+HOMEPATH = \Users\Alessandro Varriale
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+REGIONCODE = EMEA
+# environment
+SYSTEMROOT = C:\WINDOWS
+# makefile (from 'uiuc/make/uiuc.mk', line 15)
+OBJS_DIR = .objs
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+PLATFORMCODE = AN
+# automatic
++F = $(notdir $+)
+# makefile (from 'uiuc/make/uiuc.mk', line 26)
+CXX_WHICH = $(CXX_GCC)
+# environment
+APPDATA = C:\Users\Alessandro Varriale\AppData\Roaming
+# makefile (from 'uiuc/make/uiuc.mk', line 25)
+CXX_GCC = g++
+# environment
+TEMP = /c/Users/ALESSA~1/AppData/Local/Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# makefile (from 'uiuc/make/uiuc.mk', line 30)
+STDVERSION = -std=c++14 
+# default
+MAKEFILES := 
+# makefile (from 'uiuc/make/uiuc.mk', line 38)
+WARNINGS = -pedantic -Wall -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable
+# automatic
+<F = $(notdir $<)
+# makefile (from 'uiuc/make/uiuc.mk', line 31)
+STDLIBVERSION_CLANG = -stdlib=libc++ 
+# makefile (from 'uiuc/make/uiuc.mk', line 27)
+CXX = $(CXX_WHICH)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e09
+# makefile (from 'uiuc/make/uiuc.mk', line 21)
+OBJS_TEST = $(filter-out $(EXE_OBJ), $(OBJS)) $(CPP_TEST:.cpp=.o)
+# default
+.INCLUDE_DIRS = /usr/include /usr/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 2)
+EXE = main
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+TERM = cygwin
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 12488
+# environment
+USERDOMAIN_ROAMINGPROFILE = SMOL246
+# variable set hash-table stats:
+# Load=123/1024=12%, Rehash=0, Collisions=31/200=16%
+
+# Pattern-specific Variable Values
+ 
+
+# No pattern-specific variable values.
+
+# Directories
+
+# .objs/uiuc/catch (device 351649482, inode 27584547717770275): 2 files, no impossibilities.
+# .objs/uiuc (device 351649482, inode 11821949021973419): 3 files, no impossibilities.
+# . (device 351649482, inode 25614222880863595): 17 files, no impossibilities.
+# .objs (device 351649482, inode 12384898975392799): 10 files, no impossibilities.
+# .objs/tests (device 351649482, inode 24769797950663725): 2 files, no impossibilities.
+# tests (device 351649482, inode 10133099161783335): 3 files, no impossibilities.
+
+# 37 files, no impossibilities in 6 directories.
+
+# Implicit Rules
+
+.objs/%.o: %.cpp | .objs
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+.objs/main.o: main.cpp IntPair.h main.cpp UnorderedMapCommon.h IntPair.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'main'
+#  Last modified 2021-05-10 20:16:22.3880846
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+all: main test
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+
+.PHONY: all tidy clean zip
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.objs/UnorderedMapExercises.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-10 20:16:29.8553172
+#  File has been updated.
+#  Successfully updated.
+
+zip:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 99):
+	@echo "!!! Preparing submission zip with student code..."
+	@echo "!!! Make sure you have already tried compiling and testing your code"
+	@echo "!!! thoroughly before submitting the zip on Coursera!"
+	@echo ""
+	@echo "Removing any previous version of zip file..."
+	rm -rf $(ZIP_FILE)
+	@echo "Creating new file..."
+	zip $(ZIP_FILE) $(COLLECTED_FILES)
+	@echo "Created zip file: " $(ZIP_FILE)
+
+# Not a target:
+.objs/uiuc/*.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-03 00:33:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+UnorderedMapExercises.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-10 20:16:15.9661085
+#  File has been updated.
+#  Successfully updated.
+
+test: .objs/UnorderedMapCommon.o .objs/UnorderedMapExercises.o .objs/tests/week1_tests.o .objs/uiuc/catch/catchmain.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/14=0%
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 72):
+	$(LD) $^ $(LDFLAGS) -o $@
+	@echo
+	@echo " Built the test suite program: " $(TEST)
+	@echo $(ASANWARNING)
+
+# Not a target:
+tests/week1_tests.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-03 00:33:56
+#  File has been updated.
+#  Successfully updated.
+
+.objs:
+ 
+#  Implicit rule search has not been done.
+#  Last modified 2021-05-10 20:16:29.9150965
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 62):
+	@mkdir -p $(OBJS_DIR)
+	@mkdir -p $(OBJS_DIR)/uiuc
+	@mkdir -p $(OBJS_DIR)/uiuc/catch
+	@mkdir -p $(OBJS_DIR)/tests
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-03 00:33:56
+#  File has been updated.
+#  Successfully updated.
+
+.objs/UnorderedMapExercises.o: UnorderedMapExercises.cpp IntPair.h UnorderedMapCommon.h UnorderedMapExercises.cpp UnorderedMapExercises.cpp UnorderedMapCommon.h IntPair.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'UnorderedMapExercises'
+#  Last modified 2021-05-10 20:16:30.0174957
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+IntPair.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-03 00:33:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+uiuc/make/uiuc.mk:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-03 00:33:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.objs/UnorderedMapCommon.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-10 20:16:27.6365083
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+UnorderedMapCommon.h:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-03 00:33:56
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+UnorderedMapCommon.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2019-05-03 00:33:56
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 93):
+	rm -rf $(EXE) $(TEST) $(OBJS_DIR) $(CLEAN_RM)
+
+# Not a target:
+.objs/uiuc/catch/catchmain.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tidy: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 96):
+	rm -rf doc
+
+.objs/tests/week1_tests.o: tests/week1_tests.cpp | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'tests/week1_tests'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .objs/tests/week1_tests.o
+# automatic
+# % := 
+# automatic
+# * := tests/week1_tests
+# automatic
+ 
+# + := tests/week1_tests.cpp
+# automatic
+# | := .objs
+# automatic
+# < := tests/week1_tests.cpp
+# automatic
+# ^ := tests/week1_tests.cpp
+# automatic
+# ? := tests/week1_tests.cpp
+# variable set hash-table stats:
+ 
+# Load=8/32=25%, Rehash=0, Collisions=4/24=17%
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# Not a target:
+.objs/main.d:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-10 20:16:22.1677167
+#  File has been updated.
+#  Successfully updated.
+
+main: .objs/main.o .objs/UnorderedMapCommon.o .objs/UnorderedMapExercises.o
+#  Implicit rule search has not been done.
+#  Last modified 2021-05-10 20:16:31.8596556
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 51):
+	$(LD) $^ $(LDFLAGS) -o $@
+	@echo
+	@echo " Built the main executable program file for the project: " $(EXE)
+	@echo " (Make sure you try \"make test\" too!)"
+	@echo $(ASANWARNING)
+
+.objs/UnorderedMapCommon.o: UnorderedMapCommon.cpp IntPair.h UnorderedMapCommon.h UnorderedMapCommon.cpp UnorderedMapCommon.cpp UnorderedMapCommon.h IntPair.h | .objs
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'UnorderedMapCommon'
+#  Last modified 2021-05-10 20:16:28.5606107
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uiuc/make/uiuc.mk', line 68):
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+# Not a target:
+.objs/tests/*.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.objs/uiuc/catch/*.d:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=29/1024=3%, Rehash=0, Collisions=0/109=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 56 / storage = 817 B / avg = 14 B
+# current buf: size = 8162 B / used = 817 B / count = 56 / avg = 14 B
+
+# strcache performance: lookups = 161 / hit rate = 65%
+# hash-table stats:
+# Load=56/8192=1%, Rehash=0, Collisions=6/161=4%
+# Finished Make data base on Fri May 21 15:57:31 2021
+
+ 
